@@ -1,0 +1,18 @@
+1
+00:00:50,884 --> 00:00:52,219
+{y:i}Hello!
+{c:$00ff00}How <i>are</i> you?
+
+2
+00:01:07,901 --> 00:01:10,153
+{Y:u}{y:b}- How did he do that?
+- Made him an offer he couldn't refuse.
+
+3
+00:01:08,000 --> 00:01:09,000
+<font face="Microsoft Sans Serif" color="#ffff80" size="10">Hello?</font>
+
+4
+00:02:00,000 --> 00:03:00,000
+/Lorem ipsum /dolor sit/amet
+//Lorem ipsum dolor sit amet

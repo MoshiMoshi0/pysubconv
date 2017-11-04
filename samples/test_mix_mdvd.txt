@@ -1,0 +1,5 @@
+{0}{25}{y:i}Hello!|How <i>are</i> you?
+{10}{25}/Hello!|{y:i}How are you?
+{20}{25}<u>Hello!</u>
+{30}{25}{y:s}Hello!
+{40}{25}{F:fontname}Hello!|<font size="10">Hello!</font>
