@@ -103,6 +103,8 @@ class MicroDVDFormat(SubtitleFormat):
                     out.write('{' + ('Y' if is_multi else 'y') + ':b}')
                 elif token.style_type == StyleType.UNDERLINE_START:
                     out.write('{' + ('Y' if is_multi else 'y') + ':u}')
+                elif token.style_type == StyleType.STRIKETHROUGH_START:
+                    out.write('{' + ('Y' if is_multi else 'y') + ':s}')
                 elif token.style_type == StyleType.FONTNAME_START:
                     out.write('{' + ('F' if is_multi else 'f') + ':' + token.style_data + '}')
                 elif token.style_type == StyleType.FONTSIZE_START:
