@@ -16,7 +16,7 @@ Hello!
 
 5
 00:00:09,096 --> 00:00:11,096
-<font color="#0080ff">Hello!</font>
+<font color="#0080FF">Hello!</font>
 
 6
 00:00:11,120 --> 00:00:13,120
@@ -34,5 +34,5 @@ How are you?
 
 9
 00:00:21,240 --> 00:00:23,240
-<font color="#0080ff"><i><font face="Microsoft Sans Serif"><u>Hello!</u></font></i></font>
+<font color="#0080FF"><i><font face="Microsoft Sans Serif"><u>Hello!</u></font></i></font>
 

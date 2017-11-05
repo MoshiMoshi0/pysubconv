@@ -10,9 +10,9 @@ from pysubconv.formats.srt import SrtFormat
 
 # TODO: cli support
 metadata = Metadata()
-names = ['test_srt.txt', 'test_mdvd.txt', 'test_mpl2.txt', 'test_mix_mdvd.txt', 'test_mix_srt.txt']
+names = ['srt_sample.txt', 'mdvd_sample.txt', 'mpl2_sample.txt', 'mdvd_sample_mix.txt', 'srt_sample_mix.txt']
 for n in names:
-    with open('samples\\' + n, encoding='utf-8') as f:
+    with open('tests\\test_files\\' + n, encoding='utf-8') as f:
         for sf in SubtitleFormat.__subclasses__():
             try:
                 cue = list(sf.parse_cue(f, metadata))
@@ -27,7 +27,7 @@ for n in names:
     print(n)
     print('------------------------------------------------------')
 
-    with open('samples\\' + n, encoding='utf-8') as f:
+    with open('tests\\test_files\\' + n, encoding='utf-8') as f:
         print(f.read())
 
     print('------------------------------------------------------')

@@ -10,5 +10,5 @@
 {0}{25}Hello!|How are you?
 {0}{25}{Y:i}Hello!|How are you?
 {0}{25}{y:i}Hello!|{y:b}How are you?|{y:u}Hello?
-{0}{25}{c:$0000ff}{y:b,u}{f:DeJaVuSans}{s:12}Hello!
+{0}{25}{c:$0000FF}{y:b}{y:u}{f:DeJaVuSans}{s:12}Hello!
 {0}{25}{Y:i}{y:u}Hello!|How are you?
